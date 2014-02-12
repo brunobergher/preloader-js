@@ -14,7 +14,7 @@ var Preloader = {
     } else {
       var img = new Image();
       img.src = image;
-      this.list.push(img);
+      this.list.push(image);
     }
   }
 }

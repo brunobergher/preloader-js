@@ -7,8 +7,6 @@
 var Preloader = {
   list: [],
   add: function(image) {
-    this._init();
-
     if(image instanceof Array) {
       for(var i=0; i< image.length; i++) {
         this.add(image[i]);
